@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "com.unity.animation.rigging": {
+      "version": "0.2.7-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.1.1",
+        "com.unity.test-framework": "1.0.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.burst": {
+      "version": "1.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -26,6 +45,13 @@
     "com.unity.ide.vscode": {
       "version": "1.2.1",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.1.0",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -65,6 +91,30 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.vrmc.meshutility": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/MeshUtility#v0.61.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7c03033e04b3086014b25cd14cc278fc312358b6"
+    },
+    "com.vrmc.univrm": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.61.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.61.1",
+        "com.vrmc.meshutility": "0.61.1"
+      },
+      "hash": "7c03033e04b3086014b25cd14cc278fc312358b6"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.61.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7c03033e04b3086014b25cd14cc278fc312358b6"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
