@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c7cc57acf145e583518e3cf183f200, type: 3}
+  m_Name: Finger Configuration
+  m_EditorClassIdentifier: 
+  thumb1Stretched: -0.17
+  thumb2Stretched: -0.36
+  thumb3Stretched: -0.06
+  thumbSpread: -0.38
+  index1Stretched: 0.22
+  index2Stretched: -0.34
+  index3Stretched: -0.58
+  indexSpread: 0.34
+  middle1Stretched: 0.77
+  middle2Stretched: -0.46
+  middle3Stretched: 0.52
+  middleSpread: -0.28
+  ring1Stretched: 0
+  ring2Stretched: 0
+  ring3Stretched: 0
+  ringSpread: 0
+  pinky1Stretched: 0
+  pinky2Stretched: 0
+  pinky3Stretched: 0
+  pinkySpread: 0
