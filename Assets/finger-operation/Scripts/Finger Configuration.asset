@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c7cc57acf145e583518e3cf183f200, type: 3}
   m_Name: Finger Configuration
   m_EditorClassIdentifier: 
-  thumb1Stretched: -0.17
-  thumb2Stretched: -0.36
-  thumb3Stretched: -0.06
-  thumbSpread: -0.38
-  index1Stretched: 0.22
-  index2Stretched: -0.34
-  index3Stretched: -0.58
-  indexSpread: 0.34
-  middle1Stretched: 0.77
-  middle2Stretched: -0.46
-  middle3Stretched: 0.52
-  middleSpread: -0.28
+  thumb1Stretched: 0
+  thumb2Stretched: 0
+  thumb3Stretched: 0
+  thumbSpread: 0
+  index1Stretched: 0
+  index2Stretched: 0
+  index3Stretched: 0
+  indexSpread: 0
+  middle1Stretched: 0
+  middle2Stretched: 0
+  middle3Stretched: 0
+  middleSpread: 0
   ring1Stretched: 0
   ring2Stretched: 0
   ring3Stretched: 0
